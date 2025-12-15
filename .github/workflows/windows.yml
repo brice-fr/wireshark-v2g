@@ -86,7 +86,7 @@ jobs:
            run: |
               cp plugins/epan/v2g/dissector/v2g.lua v2g-artifact/v2g.lua
          - name: Upload Windows artifacts
-           uses: actions/upload-artifact@v3
+           uses: actions/upload-artifact@v4
            with:
               name: windows-packages
               path: v2g-artifact
